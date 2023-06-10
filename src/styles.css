@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.navLogo{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+
+}
+
+
+.flexbox-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    margin-top: 70px;
+    padding-top: 5%;
+    transition: padding-top 0.5s ease; 
+
+}
+
+.hero-image{
+    flex: 0.15;
+    max-width: 100%;
+    height: 100px;
+    flex-basis: 300px;
+    padding-right: 2%;
+    padding-left: 2%;
+    transition: padding-left 0.5s ease; 
+    transition: width 0.5s ease, height 0.5s ease;
+    transition: padding-right 0.5s ease; 
+
+}
+
+.header-1-hero-section{
+    flex: 0.1;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #000000;
+    font-weight: 600;
+    font-size: 35px;
+    margin-right: 40%;
+    margin-left: 5%;
+}
+
+.header-3-hero-section{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 25%;
+
+}
+
